@@ -1,0 +1,165 @@
+/**********************top***************************/
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background: linear-gradient(rgba(0, 208, 255, 0.405),rgba(255, 255, 255, 0) );
+}
+
+.top2 {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background: linear-gradient(rgba(255, 38, 0, 0.437),rgba(213, 213, 213, 0) );
+}
+
+.link {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+/**********************cuerpo************************/
+
+.fondo2 {
+    background-size: 100%;
+    background-image: url(../img/atardecer\ gif.gif);
+
+}
+
+.fondo1 {
+    background-size: 100%;
+    background-image: url(../img/gif-anashe.gif);
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    padding: 1rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    height: 13rem;
+    width: 12rem;
+    font-size: large;
+    background-color:rgba(0, 255, 255, 0.132);
+    color: white;
+}
+
+.text1 {
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    height: 2rem;
+    width: 9rem;
+    font-size: large;
+    background-color: rgba(0, 255, 255, 0.132);
+    color: white;
+}
+
+.text2 {
+    padding: 1rem;
+    margin-top: 10rem;
+    margin-left: 15rem;
+    height: 13rem;
+    width: 12rem;
+    font-size: large;
+    background-color: rgba(0, 255, 255, 0.132);
+    color: white;
+}
+
+
+
+.link1 {
+    color: red;
+    text-decoration: none;
+}
+
+.border {
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 2%;
+    border-color: rgba(255, 255, 255, 0.318);
+}
+
+.pie-de-pagina {
+    margin-top: 12rem;
+    display: flex;
+    height: 8rem;
+    width: 100%;
+    background:linear-gradient(rgba(213, 213, 213, 0), rgba(0, 17, 255, 0.66));
+}
+
+.pie-de-pagina2 {
+    margin-top: 12rem;
+    display: flex;
+    height: 8rem;
+    width: 100%;
+    background:linear-gradient(rgba(213, 213, 213, 0), rgba(255, 38, 0, 0.66));
+}
+
+.text4 {
+    margin: 2rem;
+    padding-top: 4rem;
+    color: white;
+    font-size: large;
+}
+
+.formulario {
+    background-color: rgba(0, 255, 225, 0.218);
+    margin-left: 5rem;
+    margin-top: 4rem;
+    border-color: rgba(255, 255, 255, 0.453);
+    border-width: 0,1rem;
+    padding: 1rem;
+    border-style: solid;
+    border-radius: 2%;
+    height: 30rem;
+    width: 30rem;
+}
+
+.text6 {
+    width: 5rem;
+}
+
+.area0 {
+    margin-top: 5rem;
+   height: 10rem;
+   width: 10rem;
+}
+
+.formulario1 {
+    background-color: rgba(255, 47, 0, 0.333);
+    margin-left: 5rem;
+    margin-top: 4rem;
+    border-color: rgba(255, 255, 255, 0.453);
+    border-width: 0,1rem;
+    padding: 1rem;
+    border-style: solid;
+    border-radius: 2%;
+    height: 30rem;
+    width: 30rem;
+}
+
+/*****************animaciones**********************/
+
+.link:hover {
+    transform: scale(1.5);
+}
+
+.link {
+    transition: 1s;
+}
+
+.link1:hover {
+    transform: scale(1.5);
+}
+
+.link1 {
+    transition: 1s;
+}

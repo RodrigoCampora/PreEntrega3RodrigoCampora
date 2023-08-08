@@ -1,0 +1,119 @@
+/**********************top***************************/
+.fondo1 {
+    background-size: 100%;
+    background-image: url(../img/gif-anashe.gif);
+    .top {
+        display: flex;
+        width: 100%;
+        height: 4rem;
+        background: linear-gradient(rgba(0, 208, 255, 0.405),rgba(213, 213, 213, 0) );
+        .link {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            font-size: x-large;
+        }
+    }
+ 
+}
+
+
+
+
+/**********************cuerpo************************/
+
+.fondo2 {
+    background-size: 100%;
+    background-image: url(../img/atardecer\ gif.gif);
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    .border {
+        border-style: solid;
+        border-width: 0.1rem;
+        border-radius: 2%;
+        border-color: rgba(255, 255, 255, 0.318);
+        
+      .text {
+        padding: 1rem;
+        margin-top: 10rem;
+        margin-left: 10rem;
+        height: 13rem;
+        width: 12rem;
+        font-size: large;
+        background-color:rgba(0, 255, 255, 0.132);
+        color: white;
+      }
+    
+      .text1 {
+        padding: 1rem;
+        margin-top: 5rem;
+        margin-left: 15rem;
+        height: 2rem;
+        width: 9rem;
+        font-size: large;
+        background-color: rgba(0, 255, 255, 0.132);
+        color: white;
+      }
+    
+      .text2 {
+        padding: 1rem;
+        margin-top: 10rem;
+        margin-left: 15rem;
+        height: 13rem;
+        width: 12rem;
+        font-size: large;
+        background-color: rgba(0, 255, 255, 0.132);
+        color: white;
+      }
+      .link1 {
+        color: rgba(249, 9, 9, 0.673);
+        text-decoration: none;
+    }
+    
+    }
+    
+}
+
+
+
+.pie-de-pagina {
+    margin-top: 12rem;
+    display: flex;
+    height: 8rem;
+    width: 100%;
+    background:linear-gradient(rgba(213, 213, 213, 0), rgba(0, 17, 255, 0.66));
+   
+    .text4 {
+        margin: 2rem;
+        padding-top: 4rem;
+        color: white;
+        font-size: large;
+        @include centro;
+    }
+}
+
+.formulario {
+    margin-left: 5rem;
+    margin-top: 4rem;
+    border-color: rgb(212, 255, 0);
+    border-width: 0,1rem;
+    padding: 1rem;
+    border-style: solid;
+    border-radius: 2%;
+    height: 30rem;
+    width: 30rem;
+}
+
+.text2 {
+    width: 5rem;
+}
+
+.area0 {
+    margin-top: 5rem;
+   height: 10rem;
+   width: 10rem;
+}
